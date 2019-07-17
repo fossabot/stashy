@@ -3,6 +3,7 @@
 Python client for the Atlassian Bitbucket Server (formerly known as Stash) [REST API](https://docs.atlassian.com/bitbucket-server/rest/5.7.0/bitbucket-rest.html). Supports Python 2.6, 2.7 and 3.3.
 
 [![Build Status](https://travis-ci.org/RisingOak/stashy.png?branch=master)](https://travis-ci.org/RisingOak/stashy)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhamzawix%2Fstashy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhamzawix%2Fstashy?ref=badge_shield)
 
 ## Installation
 
@@ -151,3 +152,7 @@ stash.projects[PROJECT].repos[REPO].permitted.list()
 /users [GET, PUT]
 /users/credentials [PUT]
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhamzawix%2Fstashy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhamzawix%2Fstashy?ref=badge_large)
